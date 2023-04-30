@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.general-paragraph,
+.general-title,
+.general-list,
+.general-hr {
+  margin: 0;
+}
+
+.general-list {
+  padding: 0;
+}
+
+.general-link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.general-button {
+  border: none;
+  color: currentColor;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.general-img {
+  display: block;
+}
