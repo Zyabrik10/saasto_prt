@@ -1,5 +1,37 @@
+@import url('./variables.css');
+
 .hero{
-    background-color: #fff;
-    background-image: url('../img/mob/hero/hero.png');
+    background-color: #FFF8F2;
     background-repeat: no-repeat;
+
+    padding-top: 132px;
+    padding-bottom: 85px;
+}
+
+.hero-title{
+    color: #1C0E0D;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+
+    line-height: calc(45 / 28);
+    text-transform: capitalize;
+
+    width: 100%;
+    max-width: 297px;
+
+    margin-bottom: 12px;
+}
+
+.hero-p{
+    line-height: calc(36 / 16);
+    color: #40201E;
+
+    width: 100%;
+    max-width: 307px;
+
+    margin-bottom: 40px;
 }
