@@ -1,0 +1,39 @@
+@import url('./variables.css');
+
+.app-info-list{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    width: 100%;
+    max-width: 180px;
+}
+
+.app-info-item{
+    padding: 48px 0;
+}
+
+.app-info-item:not(:last-child){
+    border-bottom: 1px solid rgba(30, 12, 62, 0.2);
+}
+
+.app-info-num{
+    color: var(--title-text-color);
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1;
+
+    text-align: center;
+
+    margin-bottom: 28px;
+}
+
+.app-info-label{
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    opacity: 0.6;
+}
