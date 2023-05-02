@@ -1,0 +1,39 @@
+.about {
+  padding: 48px 0;
+}
+
+.about-title {
+  margin-bottom: 36px;
+}
+
+.about-list{
+    margin-bottom: 48px;
+}
+
+.about-item:first-child .about-item-img-box {
+  background: #5bc17f !important;
+}
+
+.about-item:nth-child(2) .about-item-img-box {
+    background: #FE6292 !important;
+}
+
+.about-item:last-child .about-item-img-box {
+    background: #6B72FF !important;
+}
+
+.about-img-list{
+    display: flex;
+    flex-direction: column;
+
+    gap: 45px;
+}
+
+.about-img-img{
+  margin: 0 auto;
+  filter: drop-shadow(0px 32px 54px rgba(65, 74, 85, 0.05));
+}
+
+.about-img-item:last-child{
+    display: none;
+}
