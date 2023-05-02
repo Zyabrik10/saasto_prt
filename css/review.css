@@ -1,0 +1,39 @@
+.review{
+    margin-bottom: 80px;
+}
+
+.review-title{
+    text-transform: capitalize;
+    margin-bottom: 204px;
+}
+
+.review-sub-title{
+    display: none;
+}
+
+.review-p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #1C0E0D;
+    line-height: calc(29 / 16);
+    margin-bottom: 28px;
+}
+
+.review-item-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    color: #38363C;   
+
+    margin-bottom: 10px;
+
+    opacity: 1;
+}
+
+.review-item-occupation{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    color: #38363C;
+
+    margin-bottom: 14px;
+}
