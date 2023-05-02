@@ -1,5 +1,12 @@
-@import url('./variables.css');
 @import url('./general.css');
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./app-info.css');
+@import url('./features.css');
+@import url('./analyses.css');
+@import url('./about.css');
+@import url('./flexiable-simple.css');
+@import url('./partner.css');
+@import url('./review.css');
+@import url('./download.css');
 @import url('./footer.css');
