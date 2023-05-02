@@ -1,0 +1,146 @@
+@import url('./variables.css');
+
+.flexiable-simple{
+    margin-bottom: 80px;
+}
+
+.flexiable-simple-title{
+    text-align: center;
+    margin-bottom: 10px;   
+}
+
+.flexiable-simple-p{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.flexiable-simple-swither-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    max-width: 225px;
+
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.flexiable-simple-swither-p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    opacity: 1;
+}
+
+.flexiable-simple-swither{
+    position: relative;
+    display: block;
+
+    width: 55px;
+    height: 26px;
+
+    background: rgba(255, 85, 62, 0.2);
+    border-radius: 20px;   
+}
+
+.flexiable-simple-swither-ball{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-120%, -50%);
+
+    display: flex;
+    width: 18px;
+    height: 18px;
+
+    background: #FF553E;
+
+    border-radius: 100%;
+}
+
+.price-list{
+    --flex-items: 1;
+    --flex-items-gap: 28px;
+}
+
+.price-item{
+    border-radius: 30px;
+    padding: 36px 26px;
+}
+
+.price-item:first-child{
+    border: 1px solid #FF553E;
+}
+
+.price-item:last-child{
+    background: #FF553E;
+}
+
+.price-item-info-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+}
+
+.price-title{
+    font-weight: 600;
+    font-size: 20px;
+
+    line-height: 1;
+    opacity: 1;
+}
+
+.price-p{
+    font-style: 18px;
+    line-height: calc(20 / 18);
+    color: #FF553E;
+}
+
+.price-per-info{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    color: var(--general-text-color);
+}
+
+.price-per-info-data{
+    opacity: 0.4;
+}
+ 
+.price-cost{
+    font-size: 28px;
+    line-height: 1;
+    opacity: 1;
+}
+
+.price-include-list{
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+
+    margin-bottom: 30px;
+}
+
+.price-button{
+    margin: 0 auto;
+}
+
+.price-button.recommend,
+.price-p.recommend,
+.price-title.recommend{
+    color: #fff;
+}
+
+.price-button.recommend{
+    color: #FF553E;
+    background: #fff;
+}
