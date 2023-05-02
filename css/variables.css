@@ -1,3 +1,9 @@
 :root{
+    /* text */
+    --general-text-color: #404040;
+    --title-text-color: #18063C;
 
+    /* cell */
+    --flex-items: 3;
+    --flex-items-gap: 20px;
 }
