@@ -1,0 +1,27 @@
+.download{
+    padding: 48px 0;
+
+    margin-bottom: 80px;
+
+    background: #FFF8F2;
+}
+
+.download-title{
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.download-p{
+    line-height: calc(30 / 16);
+    margin-bottom: 30px;
+}
+
+.download-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.download-link{
+    display: inline-block;
+}
