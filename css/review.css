@@ -1,5 +1,9 @@
 .review{
     margin-bottom: 80px;
+
+    background-image: url('../img/mob/review/Group.png');
+    background-repeat: no-repeat;
+    background-position:  24px 13px;
 }
 
 .review-title{

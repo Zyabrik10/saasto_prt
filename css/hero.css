@@ -2,11 +2,24 @@
 
 .hero{
     background-color: #FFF8F2;
-    background-repeat: no-repeat;
+}
 
+.hero-container{
+    position: relative;
+
+    background-image: url('../img/mob/hero/hero.png');
+    background-repeat: no-repeat;
+    background-position:  0 90px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.hero-content{
     padding-top: 132px;
     padding-bottom: 85px;
 }
+
 
 .hero-title{
     color: #1C0E0D;
@@ -34,4 +47,12 @@
     max-width: 307px;
 
     margin-bottom: 40px;
+}
+
+.hero-des-img{
+    position: absolute;
+    z-index: -1;
+
+    top: 0;
+    left: 0;
 }

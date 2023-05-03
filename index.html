@@ -80,24 +80,26 @@
     </header>
     <main>
       <section class="hero">
-        <div class="container">
-          <h1 class="hero-title general-title">
-            A collaborative Time Tracking that you Need
-          </h1>
-          <p class="hero-p general-paragraph">
-            An enim nullam tempor sapien gravida donec enim ipsum porta justo
-            congue magna at pretium purus pretium ligula
-          </p>
-          <button
-            class="hero-button general-button general-big-button"
-            type="button"
-          >
-            Start 14 Days Trial
-          </button>
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title general-title">
+              A collaborative Time Tracking that you Need
+            </h1>
+            <p class="hero-p general-paragraph">
+              An enim nullam tempor sapien gravida donec enim ipsum porta justo
+              congue magna at pretium purus pretium ligula
+            </p>
+            <button
+              class="hero-button general-button general-big-button"
+              type="button"
+            >
+              Start 14 Days Trial
+            </button>
+          </div>
         </div>
       </section>
       <section class="app-info">
-        <div class="container">
+        <div class="container app-info-container">
           <h2 class="app-info-title hidden">App info</h2>
           <ul class="app-info-list general-list">
             <li class="app-info-item">
@@ -195,8 +197,19 @@
         </div>
       </section>
       <section class="analyses">
+        <picture>
+          <source
+            srcset="./img/mob/analysys/screen.png"
+            media="(max-width: 375px)"
+          />
+          <img
+            class="analyses-img general-img"
+            src="./img/mob/analysys/screen.png"
+            load="lazy"
+            alt="agenda"
+          />
+        </picture>
         <div class="container">
-          <img class="analyses-img general-img" src="#" load="lazy" alt="#" />
           <h2 class="analyses-title general-title general-section-title">
             Analytics & Reporting Brackdown
           </h2>
@@ -290,7 +303,19 @@
         </div>
       </section>
       <section class="about">
-        <div class="container">
+        <div class="container about-container">
+          <picture>
+            <source
+              srcset="./img/mob/about/chart.png"
+              media="(max-width: 375px)"
+            />
+            <img
+              class="about-dec-img general-img"
+              src="./img/mob/about/chart.png"
+              load="lazy"
+              alt="agenda"
+            />
+          </picture>          
           <h2 class="about-title general-title general-section-title">
             How our Tracker work for you
           </h2>
@@ -614,6 +639,7 @@
           <h3 class="review-sub-title general-title">
             Growth your business with using us
           </h3>
+          <div class="review-dec-img-box"></div>
           <p class="review-p general-paragraph general-section-p">
             Leading an organization is incredibly rewarding and equally
             humbling. Confidence and humility. Every success is built on lessons
@@ -664,18 +690,18 @@
                 class="download-link general-link general-big-button empty-button"
                 href="#"
               >
-              <picture>
-                <source
-                  srcset="./img/mob/download/icons/play-market.svg"
-                  media="(max-width: 375px)"
-                />
-                <img
-                  class="partners-img general-img"
-                  src="./img/mob/download/icons/play-market.svg"
-                  load="lazy"
-                  alt=""
-                />
-              </picture>
+                <picture>
+                  <source
+                    srcset="./img/mob/download/icons/play-market.svg"
+                    media="(max-width: 375px)"
+                  />
+                  <img
+                    class="partners-img general-img"
+                    src="./img/mob/download/icons/play-market.svg"
+                    load="lazy"
+                    alt=""
+                  />
+                </picture>
               </a>
             </li>
           </ul>

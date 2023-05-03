@@ -1,5 +1,11 @@
 @import url('./variables.css');
 
+.app-info-container{
+    background-image: url('../img/mob/app-info/item.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
 .app-info-list{
     display: flex;
     flex-direction: column;
