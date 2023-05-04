@@ -9,9 +9,27 @@
     margin-bottom: 10px;   
 }
 
+@media screen and (min-width: 1171px){
+    .flexiable-simple-title{
+        font-size: 48px;
+        line-height: calc(70 / 48);
+
+        margin-bottom: 20px;
+    }
+}
+
 .flexiable-simple-p{
     text-align: center;
     margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1171px){
+    .flexiable-simple-p{
+        font-size: 18px;
+        line-height: calc(36 / 18);
+        
+        margin-bottom: 48px;
+    }
 }
 
 .flexiable-simple-swither-box{
@@ -27,11 +45,26 @@
     margin-bottom: 40px;
 }
 
+@media screen and (min-width: 1171px){
+    .flexiable-simple-swither-box{
+        margin-bottom: 70px;
+
+        max-width: 297px;
+    }
+}
+
 .flexiable-simple-swither-p{
     font-weight: 500;
     font-size: 18px;
     line-height: calc(28 / 18);
     opacity: 1;
+}
+
+@media screen and (min-width: 1171px){
+    .flexiable-simple-swither-p{
+        font-size: 24px;
+        line-height: calc(28 / 24);
+    }
 }
 
 .flexiable-simple-swither{
@@ -42,7 +75,14 @@
     height: 26px;
 
     background: rgba(255, 85, 62, 0.2);
-    border-radius: 20px;   
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 1171px){
+    .flexiable-simple-swither{
+        width: 84px;
+        height: 40px;
+    }
 }
 
 .flexiable-simple-swither-ball{
@@ -60,14 +100,39 @@
     border-radius: 100%;
 }
 
+@media screen and (min-width: 1171px){
+    .flexiable-simple-swither-ball{
+        width: 28px;
+        height: 28px;
+    }
+}
+
 .price-list{
     --flex-items: 1;
     --flex-items-gap: 28px;
 }
 
+@media screen and (min-width: 1171px){
+    .price-list{
+        --flex-items: 2;
+        --flex-items-gap: 30px;
+
+        
+        justify-content: center;
+    }
+}
+
 .price-item{
     border-radius: 30px;
     padding: 36px 26px;
+}
+
+@media screen and (min-width: 1171px){
+    .price-item{
+        padding: 64px 0;
+        flex-basis: 470px !important;
+        border-radius: 110px;
+    }
 }
 
 .price-item:first-child{
@@ -86,6 +151,15 @@
     margin-bottom: 25px;
 }
 
+@media screen and (min-width: 1171px){
+    .price-item-info-box{
+        justify-content: center;
+        flex-direction: column;
+    
+        margin-bottom: 25px;
+    }
+}
+
 .price-title{
     font-weight: 600;
     font-size: 20px;
@@ -94,31 +168,107 @@
     opacity: 1;
 }
 
+@media screen and (min-width: 1171px){
+    .price-title{
+        font-size: 48px;
+        line-height: 1;
+
+        margin-bottom: 56px;
+    }
+}
+
+.price-item-info-box-list{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 20px;
+
+    margin-bottom: 64px;
+}
+
+@media screen and (min-width: 1171px){
+    .price-item-info-box-list{
+        display: flex;
+    }
+}
+
 .price-p{
     font-style: 18px;
     line-height: calc(20 / 18);
     color: #FF553E;
 }
 
-.price-per-info{
-    display: flex;
-    align-items: center;
-    gap: 4px;
+@media screen and (min-width: 1171px){   
+    .price-p{
+        font-size: 28px;
+        line-height: calc(52 / 28);
+        text-align: center;
+    }
+}
 
+.price-per-info{
     font-weight: 500;
     font-size: 18px;
     line-height: calc(28 / 18);
+
     color: var(--general-text-color);
 }
 
-.price-per-info-data{
+@media screen and (min-width: 1171px){   
+    .price-per-info{
+        margin-bottom: 64px;
+    }
+}
+
+.price-per-info-currency{
+    position: relative;
+    top: -3px;
+
+    opacity: 0.7;
+
+    margin-right: 4px;
+}
+
+@media screen and (min-width: 1171px){   
+    .price-per-info-currency{
+        top: -25px;
+
+        margin-right: 4px;
+        color: #404040;
+
+        opacity: 0.7;
+    }
+
+    .price-per-info.recommend .price-per-info-currency{
+        color: #fff;
+    }
+}
+
+.price-per-info-time{
     opacity: 0.4;
 }
- 
+
+@media screen and (min-width: 1171px){   
+    .price-per-info-time{
+        opacity: 0.8;
+    }
+}
+
 .price-cost{
     font-size: 28px;
     line-height: 1;
     opacity: 1;
+
+    margin-right: 7px;
+}
+
+@media screen and (min-width: 1171px){   
+    .price-cost{
+        font-size: 64px;
+        line-height: 1;
+        margin-right: 8px;
+    }
 }
 
 .price-include-list{
@@ -130,13 +280,20 @@
     margin-bottom: 30px;
 }
 
+@media screen and (min-width: 1171px){
+    .price-include-list{
+        display: none;
+    }
+}
+
 .price-button{
     margin: 0 auto;
 }
 
 .price-button.recommend,
 .price-p.recommend,
-.price-title.recommend{
+.price-title.recommend,
+.price-per-info.recommend{
     color: #fff;
 }
 
