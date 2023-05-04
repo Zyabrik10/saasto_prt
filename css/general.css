@@ -16,6 +16,14 @@ body {
   font-weight: 400;
 }
 
+@media screen and (min-width: 1171px){
+  body{
+    background-image: url('../img/web/hero.png');
+    background-repeat: no-repeat;
+    background-position: 0 100px;
+  }
+}
+
 .flex-container{
   display: flex;
   flex-wrap: wrap;
@@ -60,8 +68,18 @@ body {
 .container{
   width: 100%;
   max-width: 375px;
+
   padding: 0 16px;
+
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1171px){
+  .container{
+    width: 1201px;
+    min-width: 1201px;
+    padding: 0 10px;
+  }
 }
 
 .hidden{
