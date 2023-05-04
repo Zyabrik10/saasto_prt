@@ -1,9 +1,22 @@
 @import url('./variables.css');
 
+@media screen and (min-width: 1171px) {
+    .app-info{
+        padding-top: 94px;
+        padding-bottom: 55px;
+    }
+}
+
 .app-info-container{
     background-image: url('../img/mob/app-info/item.png');
     background-repeat: no-repeat;
     background-position: left bottom;
+}
+
+@media screen and (min-width: 1171px) {
+    .app-info-container{
+        background-image: none;
+    }
 }
 
 .app-info-list{
@@ -16,12 +29,31 @@
     max-width: 180px;
 }
 
+@media screen and (min-width: 1171px) {
+    .app-info-list{
+        max-width: 696px;
+        flex-direction: row;
+        gap: 80px;
+
+        margin-right: 0;
+        margin-left: 20px;
+    }
+}
+
 .app-info-item{
     padding: 48px 0;
 }
 
 .app-info-item:not(:last-child){
     border-bottom: 1px solid rgba(30, 12, 62, 0.2);
+}
+
+@media screen and (min-width: 1171px) {
+    .app-info-item{
+        border: none !important;
+        padding: 0;
+        width: 100%;
+    }
 }
 
 .app-info-num{
@@ -35,6 +67,13 @@
     text-align: center;
 
     margin-bottom: 28px;
+}
+
+@media screen and (min-width: 1171px) {
+    .app-info-num{
+        font-size: 48px;
+        line-height: calc(48 / 64);
+    }
 }
 
 .app-info-label{
